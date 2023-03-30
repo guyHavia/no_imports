@@ -6,6 +6,7 @@ How to Compile the code in visual studio:
 2. Linker > Input > Ignore All Default Libraries > Yes (/NODEFAULTLIB)
 3. Linker > Advanced > Entry Point > main
 4. C/C++ > Code Generation > Security Check > Disable
+5. C/C++ > All Options > Basic Runtime Checks option > Default
 
 
 this code hide himself from static analysis.
